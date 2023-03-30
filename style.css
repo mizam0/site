@@ -1,0 +1,59 @@
+body{
+	text-decoration: none;
+	background-color: #0d1117;
+	color: #fff;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+#content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.typewriter p {
+	color: #fff;
+	font-size: 16px;
+	font-family: monospace;
+	overflow: hidden;
+	border-right: .15em solid red;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .15em;
+	animation: 
+		typing 3.5s steps(30, end),
+		blink-caret .5s step-end infinite;
+}
+  
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+}
+  
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: red}
+}
+
+.stack-card{
+	max-width: 50%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.stack-card img{
+	margin-bottom: 10px;
+}
+
+.stats-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
