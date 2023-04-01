@@ -1,7 +1,10 @@
 body{
-	text-decoration: none;
 	background-color: #0d1117;
 	color: #fff;
+}
+
+a{
+	text-decoration: none;
 }
 
 .container{
@@ -14,6 +17,11 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+
+.title-text a{
+	text-decoration: none;
+	color: #fff;
 }
 
 .typewriter p {
